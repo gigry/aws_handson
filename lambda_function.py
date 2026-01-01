@@ -6,7 +6,7 @@ from datetime import datetime
 s3 = boto3.client('s3')
 
 def lambda_handler(event, context):
-    # ※ここは自分のバケット名に書き換えてくれな！
+    # ※ここは自分のバケット名に書き換えてくれな！たのむぜーーーーーー
     BUCKET_NAME = "my-weather-log-20260102"
     url = "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
     
