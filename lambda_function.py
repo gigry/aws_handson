@@ -26,3 +26,5 @@ def lambda_handler(event, context):
     except Exception as e:
         print(e)
         return {'statusCode': 500, 'body': '失敗したぜ...'}
+if __name__ == "__main__":
+    lambda_handler(None, None)
